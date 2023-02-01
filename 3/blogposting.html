@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul style="list-style:none; display: flex; justify-content: center; gap: 1%;">
+        <li>
+            <a href="index.html">
+                Registration
+            </a>
+        </li>
+        <li>
+            <a href="blogposting.html">
+                Blog
+            </a>
+        </li>
+        <li>
+            <a href="Contact.html">
+                Contact us
+            </a>
+        </li>
+    </ul>
+        <h1 style="text-align: center;">
+            Blog
+        </h1>
+        <form>
+                <div style="text-align: center;">
+                <div>
+                    <input type="text" name="header" placeholder="Header">
+                </div>
+                <div>
+                    <input type="file" name="image">
+                </div>
+                <div>
+                    <input type="url" name="URL" placeholder="URL">
+                </div>
+                <div>
+                    <textarea name="comment" placeholder="Maximum-200 symbols" maxlength="200"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="success-button">success</button>
+                </div>
+            </div>
+        </form>
+    <style>
+        .success-button {
+            background-color: green;
+            color: white;
+            height: 30px;
+            width: 75px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>
