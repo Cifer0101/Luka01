@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .sub-button {
+            background-color: rgb(192, 6, 6);
+            color: white;
+            height: 35px;
+            width: 105px;
+            border: none;
+            cursor: pointer;
+            margin-right: 8px;
+            border-radius: 2px;
+            transition: opacity 0.15s;
+        }
+
+        .sub-button:hover {
+            opacity: 0.8;
+        }
+
+        .sub-button:active {
+            opacity: 0.5;
+        }
+        .join-button {
+            background-color: white;
+            color: rgb(71, 71, 205);
+            height: 35px;
+            width: 80px;
+            border-color: rgb(71, 71, 205);
+            border-style: solid;
+            border-radius: 2px;
+            border-width: 1px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.15s,
+                        color 0.15s;
+        }
+
+        .join-button:hover {
+            background-color: rgb(99, 99, 216);
+            color: white;
+        }
+
+        .join-button:active {
+            opacity: 0.8;
+        }
+
+        .tweet-button {
+            background-color: rgb(106, 140, 214);
+            color: white;
+            height: 35px;
+            width: 80px;
+            border-radius: 17.5px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 15px;
+            transition: box-shadow 0.15s;         
+        }
+        .tweet-button:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
+        }
+        
+        .tweet-button:active {
+            opacity: 0.8;
+        }
+    </style>
+    <button class="sub-button">
+        SUBSCRIBE
+    </button>
+    <button class="join-button">
+        JOIN
+    </button>
+    <button class="tweet-button">
+        Tweet
+    </button>
+</body>
+</html>
