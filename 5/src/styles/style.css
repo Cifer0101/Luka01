@@ -46,11 +46,27 @@ li{
     color: #6C63FF;
     font-weight: 700;
     font-size: 14px
+    transition: box-shadow 0.15s;         
+    }
+.button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.button:active {
+    opacity: 0.8;
 }
 .button.full{
     background-color: #6C63FF;
     color: white;
     width: 140px;
+    transition: box-shadow 0.15s;         
+}
+.button:hover {
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.button:active {
+opacity: 0.8;
 }
 .col-6{
     width: 45%;
