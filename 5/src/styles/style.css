@@ -45,8 +45,7 @@ li{
     background-color: transparent;
     color: #6C63FF;
     font-weight: 700;
-    font-size: 14px
-    transition: box-shadow 0.15s;         
+    font-size: 14px         
     }
 .button:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
