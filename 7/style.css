@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    background-image: url(/7/2d.jpg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    animation-name: body;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes body{
+    to{
+        background-position: -5500px 0;
+    }
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container;
+    position: relative;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.wheel{
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: wheel;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.wheel:nth-child(1){
+    position: absolute;
+    left: 15%;
+    top: 83.5%;
+}
+.wheel:nth-child(2){
+    position: absolute;
+    top: 83.5%;
+    right: 60%;
+    
+}
+.wheel:nth-child(3){
+    position: absolute;
+    left: 3%;
+    top: 83.5%;
+}
+.center{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+}
+.line{
+    width: 100%;
+    height: 9%;
+    background-color: black;
+    position: absolute;
+}
+.line:nth-child(2){
+    transform: rotate(45deg);
+}
+.line:nth-child(3){
+    transform: rotate(90deg);
+}
+.line:nth-child(4){
+    transform: rotate(135deg);
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(0deg);
+        rotate: (0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        rotate: (-360deg);
+    }
+}
+/* @keyframes container{
+    0%{
+        left: -150%;
+    }
+    100%{
+        left: 150%;
+    }
+} */
+.box{
+    height: 350px;
+    width: 900px;
+    border: 20px solid black;
+    position: absolute;
+    left: 1%;
+    top: 49.5%;
+}
+.window{
+    height: 80px;
+    width: 50px;
+    border: 5px solid gold;
+    position: absolute;
+    left: 4%;
+    top: 60%;
+}
+.window2{
+    height: 80px;
+    width: 50px;
+    border: 5px solid gold;
+    position: absolute;
+    left: 9%;
+    top: 60%;
+}
+.window3{
+    height: 80px;
+    width: 50px;
+    border: 5px solid gold;
+    position: absolute;
+    left: 14%;
+    top: 60%;
+}
+.window4{
+    height: 80px;
+    width: 50px;
+    border: 5px solid gold;
+    position: absolute;
+    left: 19%;
+    top: 60%;
+}
+.window5{
+    height: 80px;
+    width: 50px;
+    border: 5px solid gold;
+    position: absolute;
+    left: 24%;
+    top: 60%;
+}
+.window6{
+    height: 80px;
+    width: 50px;
+    border: 5px solid gold;
+    position: absolute;
+    left: 29%;
+    top: 60%;
+}
+.front-window{
+    height: 200px;
+    width: 210px;
+    border: 10px solid gold;
+    position: absolute;
+    left: 33.79%;
+    top: 51.15%;
+    border-top: black;
+    border-right: black;
+}
+.decoration{
+    height: 200px;
+    width: 900px;
+    border: 10px solid gold;
+    position: absolute;
+    left: 1.95%;
+    top: 61.15%;
+    border-top: none;
+    border-right: none;
+    border-left: none;   
+}
+.decoration2{
+    height: 200px;
+    width: 900px;
+    border: 10px solid gold;
+    position: absolute;
+    left: 1.95%;
+    top: 55.15%;
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+}
+.name{
+    position: absolute;
+    left: 16%;
+    top: 70.5%;
+    font-size: 35px;
+    font-family: Lucida Console;
+    color: gold;
+}
