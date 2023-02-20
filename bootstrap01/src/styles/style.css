@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.logo{
+  width: 30%;
+}
+nav{
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 100%;
+}
+.section-1{
+  max-width: 1320px;
+  margin: 0 auto;
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav-items ul{
+  display: flex;
+  list-style: none;
+  gap: 55px;
+}
+li{
+  font-family: monospace;
+  color: #cb33bfee;
+  gap: 200px;
+}
+a{
+    color: #893783;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+  color: #d2ff08fd;;
+}
+h1{
+  margin-top: 250px;
+  margin-right: 537px;
+  font-family: monospace;
+  color: #ce0e4eb1;
+  font-size: 52px;
+}
+.firstp{
+  margin-right: 537px;
+  bottom: 24.5rem;
+  font-size: 20px;
+  font-family: monospace;
+  color: crimson;
+}
+.firstimg{
+  width: 100%;
+  margin-left: 400px;
+}
+.secondimg{
+  width: 100%;
+  margin-left: 400px;
+}
+.thirdimg{
+  width: 100%;
+  margin-left: 750px;
+}
+.fourthimg{
+  width: 100%;
+  margin-left: 350px;
+}
+.fifthimg{
+  width: 100%;
+  margin-left: 720px;
+}
+.button{
+  width: 150px;
+  height: 51px;
+  border: 2px solid crimson;
+  border-radius: 2px;
+  background-color: transparent;
+  color: crimson;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: monospace;
+  margin-top: 50px;
+  transition: 0.5s;         
+  }
+.button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  color: gold;
+  border: 0px;
+}
+
+.button:active {
+  opacity: 0.8;
+}
+.scroll-container,
+.scroll-area {
+  max-width: 100%;
+  height: 100vh;
+  font-size: 20px;
+}
+
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+  scroll-snap-align: start;
+}
+
+.scroll-container,
+.scroll-area {
+  margin: 0 auto;
+}
+.scroll-area:nth-of-type(1) {
+  background: #6e1330ee;
+}
+
+.scroll-area:nth-of-type(2) {
+  background: #550f3ae5;
+}
+
+.scroll-area:nth-of-type(3) {
+  background: #a34e99d8;
+}
+.scroll-area:nth-of-type(4) {
+  background: #217b78;
+}
+.scroll-area:nth-of-type(5) {
+  background: #8360A6;
+}
