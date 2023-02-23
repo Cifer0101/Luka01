@@ -10,7 +10,7 @@
 // }
 
 
-let number = prompt[1,4,18,24,15,2,3,19,55]
+const number = [1,4,18,24,15,2,3,19,55]
 if(number=1,3,15,19,55){
     alert("the number is odd")
 }
